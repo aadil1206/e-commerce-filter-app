@@ -26,7 +26,7 @@
     margin-left: 2rem;
     color: aqua;
   }
-  @media only screen and (max-width:300px){
+  @media only screen and (max-width:480px){
   .profile-container{
     display: flex;
     margin-right: 0.5rem;
