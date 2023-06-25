@@ -26,17 +26,19 @@
     margin-left: 2rem;
     color: aqua;
   }
-  @media only screen and (max-width:1200px){
+  @media only screen and (max-width:300px){
   .profile-container{
     display: flex;
-    margin-right: 10px;
+    margin-right: 0.5rem;
+    justify-content: space-around;
   }
 .nav{
   display: flex;
   position: relative;
-  margin-bottom: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   justify-content: space-between;
+  background-color: black;
   
 }}

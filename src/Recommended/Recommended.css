@@ -9,7 +9,7 @@
     margin-top: 20px;
     font-size: 20px;
   }
-  @media only screen and (max-width:1200px){
+  @media only screen and (max-width:300px){
     .recommended-title {
       color: aqua;
       position: relative;
