@@ -26,8 +26,8 @@ li {
 }
 @media only screen and (max-width:1200px){
 .btns{
-  padding: 10px 25px 10px 25px;
-  font-size: 16px;
+  padding: 15px 25px 15px 25px;
+  font-size: 26px;
   text-align: center;
   color: aqua;
   margin-right: 15px;
