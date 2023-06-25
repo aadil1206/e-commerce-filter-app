@@ -1,11 +1,12 @@
-nav {
+.nav {
     display: flex;
-    border-bottom: 2px solid #f3f3f3;
-    justify-content: space-around;
+     border-bottom: 2px solid #f3f3f3;
+    justify-content: space-around; 
     align-items: center;
     padding: 20px;
     z-index: 999;
     margin-left: 2rem;
+    margin-bottom: 200px;
   }
   
   input {
@@ -23,8 +24,17 @@ nav {
     width: 1.5rem;
     height: 1.5rem;
     margin-left: 2rem;
+    color: aqua;
   }
   @media only screen and (max-width:1200px){
   .profile-container{
     display: flex;
-  }}
+  }
+.nav{
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}}
