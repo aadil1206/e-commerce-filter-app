@@ -12,16 +12,13 @@
   @media only screen and (max-width:1200px){
     .recommended-title {
       color: aqua;
+      position: relative;
+      margin-left: 40px;
     }
     .recommended-flex{
       position: relative;
-      margin-left: 80px;
+      margin-left: 40px;
       width:10vw;
     }
-    .btns{
-   width: 4vw;
-   font-size: 16px;
-   text-align: center;
-  
-    }
+   
   }
