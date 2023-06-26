@@ -9,17 +9,19 @@
     margin-top: 20px;
     font-size: 20px;
   }
-  @media only screen and (max-width:300px){
+  @media only screen and (max-width:480px){
     .recommended-title {
       color: aqua;
-      position: relative;
-      margin-left: 80px;
+     display: flex;
+     position: relative;
       font-size: 2.5rem;
+      margin-left: 6rem;
     }
     .recommended-flex{
-      position: relative;
-      margin-left: 40px;
-      width:10vw;
+      display: flex;
+      position: absolute;
+      margin-left: 2rem;
+    
     }
    
   }
