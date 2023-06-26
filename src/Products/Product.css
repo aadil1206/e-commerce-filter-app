@@ -45,3 +45,12 @@
   .bag-icon {
     color: #535353;
   }
+  @media only screen and (max-width:480px){
+   .card-container{ 
+   
+    display: flex;
+    position: absolute;
+    
+    margin: 5rem 4rem 0 4rem;
+  }
+  }
