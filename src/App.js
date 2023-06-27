@@ -24,7 +24,7 @@ function App() {
      
      
   );
-  console.log(filteredItems)
+  
   
 
   // ----------- Radio Filtering -----------
@@ -37,23 +37,23 @@ function App() {
     setSelectedCategory(event.target.value);
   };
 
-  function filteredData(products, selected, query) {
+  function filteredData(products, selectedCategory, query) {
     let filteredProducts = products;
 
     // Filtering Input Items
     if (query) {
       filteredProducts = filteredItems;
     }
-
+console.log(selectedCategory)
     // Applying selected filter
-    if (selected) {
+    if (selectedCategory) {
       filteredProducts = filteredProducts.filter(
         ({ category, color, company, newPrice, title }) =>
-          category === selected ||
-          color === selected ||
-          company === selected ||
-          newPrice === selected ||
-          title === selected
+          category === selectedCategory ||
+          color === selectedCategory ||
+          company === selectedCategory ||
+          newPrice === selectedCategory ||
+          title === selectedCategory
       );
     }
 
