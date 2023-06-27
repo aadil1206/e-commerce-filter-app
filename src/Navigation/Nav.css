@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .nav {
     display: flex;
      border-bottom: 2px solid #f3f3f3;
@@ -27,18 +31,19 @@
     color: aqua;
   }
   @media only screen and (max-width:480px){
-  .profile-container{
-    display: flex;
-    margin-right: 0.5rem;
-    justify-content: space-around;
-  }
-.nav{
-  display: flex;
-  position: relative;
-  margin-bottom: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  justify-content: space-between;
-  background-color: black;
   
-}}
+.nav{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 0.1rem;
+  margin-bottom: 2rem;
+  
+}
+.profile-container{
+  display: flex;
+  
+}
+
+}
