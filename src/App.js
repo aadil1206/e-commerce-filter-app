@@ -17,10 +17,15 @@ function App() {
   const handleInputChange = (event) => {
     setQuery(event.target.value);
   };
-
+  
   const filteredItems = products.filter(
-    (product) => product.title.toLowerCase().indexOf(query.toLowerCase()) !== -1
+    (product) => 
+    product.title.toLowerCase().includes(query.toLowerCase())
+     
+     
   );
+  console.log(filteredItems)
+  
 
   // ----------- Radio Filtering -----------
   const handleChange = (event) => {
