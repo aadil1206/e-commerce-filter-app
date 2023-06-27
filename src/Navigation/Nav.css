@@ -43,7 +43,17 @@
 }
 .profile-container{
   display: flex;
+  margin-right: 1rem;
+}
+.nav-container{
+  display: flex;
+  margin-left: 3.5rem;
   
+}
+.search-input{
+display: flex;
+border: 1px solid black;
+
 }
 
 }
