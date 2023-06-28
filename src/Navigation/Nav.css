@@ -31,7 +31,7 @@
     width: 1.5rem;
     height: 1.5rem;
     margin-left: 2rem;
-    color: aqua;
+    
   }
   @media only screen and (max-width:480px){
   
@@ -44,7 +44,7 @@
  margin-top: 0;
  margin-left: 0;
   position: relative;
-  
+  margin-bottom: 2rem;
 }
 .profile-container{
   display: flex;

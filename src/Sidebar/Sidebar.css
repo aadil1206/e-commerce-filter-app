@@ -1,6 +1,6 @@
 .sidebar {
     width: 15%;
-    position: fixed;
+    /* position: relative; */
     height: 100%;
     border-right: 2px solid #e5e5e5;
     z-index: 3;
@@ -16,8 +16,36 @@
   .logo-container h1 {
     margin-top: 1.3rem;
   }
+  .clear{
+    display: none;
+  }
+  .icons1{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 7rem;
+    color: black;
+    
+}
   @media only screen and (max-width:480px){
     .sidebar{
       display: none;
     }
-  }
+    .sidebarnew{
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      background-color: aqua;
+      /* position: relative; */
+      position: fixed;
+      /* margin-top: 5rem; */
+      margin-left: -8rem;
+      z-index: 2000;
+      transform: translateX(8rem);
+      
+    }
+    .logo-container{
+      display: none;}
+   .clear{
+    display: block;
+   }
+      }

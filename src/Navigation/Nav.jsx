@@ -1,13 +1,14 @@
 import { FiHeart } from "react-icons/fi";
-import { AiOutlineShoppingCart, AiOutlineUserAdd } from "react-icons/ai";
+import { AiOutlineShoppingCart, AiOutlineUserAdd ,AiOutlineMenuUnfold} from "react-icons/ai";
 import "./Nav.css";
 
-const Nav = ({ handleInputChange, query }) => {
+const Nav = ({ handleInputChange, query ,check,onChange}) => {
+  console.log(check)
   return (
     <nav className="nav">
     <div className="menu">
     <a href="">
-          <AiOutlineShoppingCart className="nav-icons" />
+        <AiOutlineMenuUnfold className="nav-icons" onClick={onChange}/>
         </a>
     </div>
       <div className="nav-container">

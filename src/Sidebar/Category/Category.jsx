@@ -4,6 +4,7 @@ import Input from "../../Components/Input";
 function Category({ handleChange }) {
   return (
     <div>
+    
       <h2 className="sidebar-title">Category</h2>
 
       <div>

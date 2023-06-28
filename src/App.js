@@ -13,7 +13,15 @@ function App() {
 
   // ----------- Input Filter -----------
   const [query, setQuery] = useState("");
+  const [check,setcheck]=useState(true)
 
+  const onChange=(e)=>{
+    setcheck(!check);
+    e.preventDefault();
+  }
+  const onclear=()=>{
+setcheck(!check)
+  }
   const handleInputChange = (event) => {
     setQuery(event.target.value);
   };
@@ -76,8 +84,9 @@ console.log(selectedCategory)
 
   return (
     <>
-      <Sidebar handleChange={handleChange} />
-      <Navigation query={query} handleInputChange={handleInputChange} />
+     
+      <Sidebar handleChange={handleChange} check={check} onChange={onChange} onclear={onclear}/>
+      <Navigation query={query} handleInputChange={handleInputChange} check={check} onChange={onChange}/>
       <Recommended handleClick={handleClick} />
       <Products result={result} />
     </>
