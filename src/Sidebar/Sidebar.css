@@ -22,7 +22,7 @@
   .icons1{
     width: 1.2rem;
     height: 1.2rem;
-    margin-left: 6rem;
+    margin-left: 6.7rem;
     color: black;
     
 }
@@ -33,7 +33,7 @@
     .sidebarnew{
       display: flex;
       flex-direction: column;
-      width: 30%;
+      width: 40%;
       background-color: aqua;
       /* position: relative; */
       position: fixed;
