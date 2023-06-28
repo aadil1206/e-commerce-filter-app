@@ -61,7 +61,7 @@ left: 2rem;
 .search-input{
 display: flex;
 border: 1px solid black;
-
+width: 80%;
 }
 .menu{
   display: block;
