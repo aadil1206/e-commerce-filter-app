@@ -5,6 +5,11 @@ import "./Nav.css";
 const Nav = ({ handleInputChange, query }) => {
   return (
     <nav className="nav">
+    <div className="menu">
+    <a href="">
+          <AiOutlineShoppingCart className="nav-icons" />
+        </a>
+    </div>
       <div className="nav-container">
         <input
           className="search-input"
