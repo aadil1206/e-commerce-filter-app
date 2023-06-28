@@ -26,11 +26,17 @@ li {
 }
 @media only screen and (max-width:480px){
 .btns{
-  padding: 0.8rem 1.3rem 0.8rem 1rem;
+  padding: 0.8rem 1rem 0.8rem 1rem;
   font-size: 0.8rem;
   text-align: center;
-  color: aqua;
-  margin-right: 0.5rem;
+
+  margin-right: 0.3rem;
   
  
    }}
+   @media only screen and (max-width:435px){
+    .btns{
+      padding:0.8rem 0.5rem 0.8rem 0.8rem;
+      
+    }
+   }

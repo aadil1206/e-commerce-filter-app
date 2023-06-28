@@ -14,14 +14,34 @@
       
      display: flex;
      position: relative;
-      font-size: 2.5rem;
-      margin-left: 6rem;
+      font-size: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      justify-content: center;
     }
     .recommended-flex{
       display: flex;
       position: absolute;
-      margin:0 1.5rem 0 1.5rem;
+      margin-left: 0rem;
+      margin-right: 1rem;
+    justify-content: center;
+    width: 100%;
+    }
+   .recommended-thing{
+    display: block;
+     
+    flex-direction: column;
+  
+   }
+
+  }
+  @media only screen and (max-width:435px){
+    .recommended-flex{
+      display: flex;
+      position: absolute;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    justify-content: center;
     
     }
-   
   }
