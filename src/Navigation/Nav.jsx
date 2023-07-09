@@ -2,7 +2,7 @@ import { FiHeart } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlineUserAdd ,AiOutlineMenuUnfold} from "react-icons/ai";
 import "./Nav.css";
 
-const Nav = ({ handleInputChange, query ,check,onChange}) => {
+const Nav = ({ handleInputChange, query ,check,onChange,focus}) => {
   console.log(check)
   return (
     <nav className="nav">
@@ -13,6 +13,7 @@ const Nav = ({ handleInputChange, query ,check,onChange}) => {
     </div>
       <div className="nav-container">
         <input
+        ref={focus}
           className="search-input"
           type="text"
           onChange={handleInputChange}

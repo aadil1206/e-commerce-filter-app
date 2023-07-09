@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import Navigation from "./Navigation/Nav";
 import Products from "./Products/Products";
@@ -9,6 +9,10 @@ import Card from "./Components/Card";
 import "./index.css";
 
 function App() {
+  const focus=useRef(null)
+  useEffect(()=>{
+    focus.current.focus();
+  })
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   // ----------- Input Filter -----------
@@ -86,7 +90,7 @@ console.log(selectedCategory)
     <>
      
       <Sidebar handleChange={handleChange} check={check} onChange={onChange} onclear={onclear}/>
-      <Navigation query={query} handleInputChange={handleInputChange} check={check} onChange={onChange}/>
+      <Navigation query={query} handleInputChange={handleInputChange} check={check} onChange={onChange} focus={focus}/>
       <Recommended handleClick={handleClick} />
       <Products result={result} />
     </>
